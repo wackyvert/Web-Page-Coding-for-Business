@@ -1,0 +1,16 @@
+body {
+    background-color: azure;
+    font-family: "Myriad Pro";
+
+}
+h1 {
+    font-weight: bold;
+
+}
+td{
+    padding: 100px;
+}
+div {
+    width: 100%;
+    height: 100%;
+}
