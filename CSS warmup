@@ -1,0 +1,49 @@
+<!doctype html>
+<head>
+    <title>Top 5 Shows to Watch on Netflix</title>
+    <link href = "warmup.css" rel = "stylesheet"/>
+
+</head>
+
+<body>
+
+<h1>Top 5 Shows to Watch on</h1>
+<img src="Netflix.jpg">
+
+<table border="2">
+    <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+        <th>4</th>
+        <th>5</th>
+    </tr>
+
+    <tr>
+        <th>Title</th>
+        <Td>Stranger Things</td>
+        <td>The Office</td>
+        <Td>Parks and Recreation</td>
+        <td>Friends</td>
+        <Td>The Great British Bake Off</td>
+    </tr>
+
+    <tr>
+        <th>Favorite Character</th>
+        <td>Eleven <img src="Eleven.jpg" width="250" height="200"></td>
+        <td>Michael Scott <img src="Michael.jpg" width="250" height="200"></td>
+        <td>Leslie Knope <img src="Leslie.jpg" width="250" height="200"></td>
+        <td>Joey Tribbiani<img src="joey.jpg" width="250" height="200"></td>
+        <td>Paul Hollywood <img src="paul.jpg"></td>
+    </tr>
+
+
+
+
+</table>
+
+<h2>Binge watching coming to a weekend near you!</h2>
+
+</body>
+</html>
