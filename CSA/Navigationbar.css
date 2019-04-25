@@ -5,7 +5,9 @@ ul {
 
     overflow: hidden;
     background-color: #333;
-    font-family: "Myriad Pro";
+    font-family: "Arial";
+    font-weight: bold;
+
 }
 
 li {
