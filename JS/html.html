@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Champlin Park High SChool</title>
+    <link rel = "stylesheet" href = "css.css"/>
+</head>
+<body>
+<h1>Champlin Park High School</h1>
+<script>
+    var today = new Date();
+    var hourNow = today.getHours();
+    var greeting;
+
+
+    if(hourNow > 18) {
+        greeting = 'Good evening!';
+    } else if (hourNow >12) {
+        greeting = 'Good afternoon!'
+    } else if (hourNow >0){
+        greeting = 'Good morning!'
+
+    } else {
+        greeting = 'Welcome!';
+    }
+    document.write('<h3>' + greeting + '</h3>')
+
+</script>
+
+
+
+
+
+</body>
+</html>
