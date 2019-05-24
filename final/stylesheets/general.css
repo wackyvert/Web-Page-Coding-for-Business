@@ -1,0 +1,31 @@
+body{
+
+    font-family: "Arial";
+}
+h3{
+
+    text-align: center;
+    color: black;
+
+}
+h1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: #717171;
+}
+table{
+    padding-bottom: 40px;
+}
+p {
+    padding: 20px;
+}
+img {
+    align-content: center;
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
