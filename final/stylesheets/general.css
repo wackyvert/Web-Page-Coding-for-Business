@@ -29,3 +29,7 @@ img {
     margin-right: auto;
     width: 15%;
 }
+ul {
+    align-content: center;
+    list-style: inside;
+}
