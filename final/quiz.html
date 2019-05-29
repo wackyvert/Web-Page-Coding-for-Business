@@ -26,7 +26,7 @@
     </style>
 </head>
 <body>
-
+<a id = "top"/>
 <ul  class = "navbar">
     <li><a href="hom.html" >Home</a></li>
     <li><a href="past.html">Past</a></li>
@@ -152,6 +152,68 @@
                 e: "All of the above"
             },
             correctAnswer: "e"
+        },
+        {
+            question: "What is my mom's name?",
+            answers: {
+                a: "Carey",
+                b: "Kari",
+                c: "Krista",
+            },
+            correctAnswer: "b"
+        },
+        {
+            question: "How many dogs do I have?",
+            answers: {
+                a: "2",
+                b: "4",
+                c: "1",
+                d: "0",
+
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "How many siblings do I have?",
+            answers: {
+                a: "1",
+                b: "2",
+                c: "3",
+                d: "4",
+                e: "7"
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "What sports do I play?",
+            answers: {
+                a: "Baseball",
+                b: "Lacrosse",
+                c: "Football",
+                d: "Soccer",
+                e: "A and D"
+            },
+            correctAnswer: "e"
+        },
+        {
+            question: "Which band is my favorite?",
+            answers: {
+                a: "Third Eye Blind",
+                b: "Queen",
+                c: "Zac Brown Band",
+                d: "The Band Perry",
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "Which restaurant do I like most?",
+            answers: {
+                a: "Buffalo Wild Wings",
+                b: "Hy-Vee Market Grille",
+                c: "Mavericks",
+                d: "5-8",
+            },
+            correctAnswer: "a"
         }
     ];
 
@@ -161,5 +223,24 @@
 
     submitButton.addEventListener("click", showResults);
 })();</script>
+<script>$(document).ready(function() {
+    window.onscroll = function() {scrollFunction()};
+
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+// When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+});</script>
+<button onclick="topFunction" class = "button button3" align = "center">Back To Top</button>
 </body>
 </html>
