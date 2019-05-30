@@ -1,10 +1,13 @@
+@font-face {
+    font-family: "coolvetica";
+    src: url('coolvetica rg.ttftftfs.ttflic.ttfc.ttf');
+}
 body{
 
-    font-family: "Arial";
+    font-family: "coolvetica";
 }
 h3{
 
-    text-align: center;
     color: black;
 
 }
@@ -29,7 +32,11 @@ img {
     margin-right: auto;
     width: 15%;
 }
-ul {
-    align-content: center;
-    list-style: inside;
+.list {
+    display:table;
+    margin:0 auto;
+    font-size: 24px;
+}
+.center-content {
+    text-align: center;
 }
