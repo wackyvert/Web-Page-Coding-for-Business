@@ -10,7 +10,7 @@
 <body>
 <nav>
 <ul class = "navbar">
-    <li><a href="hom.html" >Home</a></li>
+    <li><a href="home.html" >Home</a></li>
     <li><a href="past.html">Past</a></li>
     <li><a href="quiz.html">Quiz</a></li>
     <li><a href="present.html">Present</a></li>
@@ -19,13 +19,12 @@
 </nav>
 <h1>Jake Torgerson's Page!</h1>
 <hr/>
-<h3>
-    <ul align = "center">
+    <ul class = "list">
         <li align = "center">My name is Jake</li>
         <li align = "center">I'm 15</li>
         <li align = "center">I live in Minnesota</li>
     </ul>
-</h3>
+
 <img class = "center" class = "modal" id = "myImg" src = "images/IMG_0751.jpg"/>
 <div id = "myModal" class = "modal">
     <span class = "close">&times;</span>
@@ -33,25 +32,6 @@
     <div id="caption"><p>My Amazing Selfie</p></div>
 </div>
 <p align = "center">Click the image!</p>
-<script>// Get the modal
-var modal = document.getElementById("myModal");
-
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("IMG_0751.jpg");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-    modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
-}
-
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
-
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-    modal.style.display = "none";
-}</script>
+<script src="js/modal.js"></script>
 </body>
 </html>
