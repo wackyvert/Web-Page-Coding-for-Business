@@ -26,13 +26,13 @@
     </style>
 </head>
 <body>
-
+<a id = "#top"/>
 <ul  class = "navbar">
     <li><a href="home.html" >Home</a></li>
     <li><a href="past.html">Past</a></li>
     <li><a href="quiz.html">Quiz</a></li>
     <li><a href="present.html">Present</a></li>
-    <li><a href ="food.html">Hobbies/Interests</a></li>
+    <li><a href ="future.html">Future</a></li>
 </ul>
 <h2>Things you can learn about me here: </h2>
 <ul>
@@ -46,6 +46,28 @@
 <div id="quiz" style = "padding-left: 25px"></div>
 <button id="submit" class = "button button3" style = "margin-left: 25px">Submit Quiz</button>
 <div id="results"></div>
+
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+<button onclick="topFunction()" class = "button button3"  id="myBtn">Back To Top</button>
+
 <script src="js/quiz.js"></script>
+
 </body>
 </html>

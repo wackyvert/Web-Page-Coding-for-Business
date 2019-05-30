@@ -14,7 +14,7 @@
     <li><a href="past.html">Past</a></li>
     <li><a href="quiz.html">Quiz</a></li>
     <li><a href="present.html">Present</a></li>
-    <li><a href ="food.html">Hobbies/Interests</a></li>
+    <li><a href ="future.html">Future</a></li>
 </ul>
 <h1>Jake Torgerson's past!</h1>
 <hr/>
@@ -54,5 +54,24 @@
     <span class="dot" onclick="currentSlide(3)"></span>
 </div>
 <script src="js/slideshow.js"></script>
+<script>
+    window.onscroll = function() {scrollFunction()};
+
+
+    function scrollFunction() {
+        if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0; // For Safari
+        document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+</script>
+<button onclick="topFunction()" class = "button button3"  id="myBtn">Back To Top</button>
 </body>
 </html>

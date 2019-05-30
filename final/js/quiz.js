@@ -104,6 +104,68 @@
                 e: "All of the above"
             },
             correctAnswer: "e"
+        },
+        {
+            question: "What is my mom's name?",
+            answers: {
+                a: "Carey",
+                b: "Kari",
+                c: "Krista",
+            },
+            correctAnswer: "b"
+        },
+        {
+            question: "How many dogs do I have?",
+            answers: {
+                a: "2",
+                b: "4",
+                c: "1",
+                d: "0",
+
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "How many siblings do I have?",
+            answers: {
+                a: "1",
+                b: "2",
+                c: "3",
+                d: "4",
+                e: "7"
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "What sports do I play?",
+            answers: {
+                a: "Baseball",
+                b: "Lacrosse",
+                c: "Football",
+                d: "Soccer",
+                e: "A and D"
+            },
+            correctAnswer: "e"
+        },
+        {
+            question: "Which band is my favorite?",
+            answers: {
+                a: "Third Eye Blind",
+                b: "Queen",
+                c: "Zac Brown Band",
+                d: "The Band Perry",
+            },
+            correctAnswer: "a"
+        },
+        {
+            question: "Which restaurant do I like most?",
+            answers: {
+                a: "Buffalo Wild Wings",
+                b: "Hy-Vee Market Grille",
+                c: "Mavericks",
+                d: "5-8",
+            },
+            correctAnswer: "a"
         }
     ];
 
