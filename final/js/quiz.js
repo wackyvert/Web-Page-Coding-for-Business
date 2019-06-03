@@ -143,7 +143,7 @@
                 b: "Lacrosse",
                 c: "Football",
                 d: "Soccer",
-                e: "A and D"
+                e: "C and D"
             },
             correctAnswer: "e"
         },
